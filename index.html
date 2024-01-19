@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiuJu studio</title>
+    <link rel="stylesheet" href="pageaccueil.css">
+    <link rel="stylesheet" href="https://use.typekit.net/bxq4uon.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="logoetliste">
+            <a href="#"><img src="miujulogoblanc.png" class="logo"></a>
+            <div class="titrenavheader">
+                <h1>Creative fashion & design
+                    <br>by Juliette Guitton and Myriam Oudafal
+                </h1>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="menuheader">Our favorite brands</a></li>
+                        <li><a href="#" class="menuheader">Model of the year</a></li>
+                        <li><a href="#" class="menuheader">Iconic runways</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <form>
+                <select id="selectlangue">
+                    <option value="Français">Français</option>
+                    <option value="Español">Espagnol</option>
+                    <option value="Allemand">Allemand</option>
+                </select>
+            </form>
+        </div>
+    </header>
+    <main>
+
+<!-- Réseaux sociaux fixes -->
+
+        <ul class="reseaux">
+            <li><a href="#"><img src="icones/instagram.svg" class="icons"></a></li>
+            <li><a href="#"><img src="icones/facebook.svg" class="icons"></a></li>
+            <li><a href="#"><img src="icones/pinterest.svg" class="icons"></a></li>
+            <li><a href="#"><img src="icones/linkedin.svg" class="icons"></a></li>
+        </ul>
+
+<!-- Section 1 Favorite brands -->
+
+        <section>
+            <h2 id="favbrands">Favorite brands</h2>
+            <div class="imgfavoritebrand">
+                <a
+                    href="https://www.dior.com/fr_fr?loopcd=SEg%7Cc%7Cg%7Cdior%7C544968307175%7Ce&gad_source=1&gclid=EAIaIQobChMIptGXuKrigwMVW5JQBh3JIApzEAAYASAAEgLVq_D_BwE"><img
+                        src="./brand/dior.png" class="brand"></a>
+                <a
+                    href="https://www.valentino.com/fr-fr/?tp=160177&utm_campaign=1.Valentino_FR_SEA_B_Pure-Brand+%5BE%5D&utm_source=GOOGLE&utm_medium=cpc&utm_content=B_Pure-Brand+%5BE%5D&utm_term=valentino&utm_country=FR&utm_type=SEARCH&s_kwcid=AL!11557!3!687382539578!p43926060235!B_Pure-Brand+%5BE%5D!GOOGLE!!valentino&gad_source=1&gclid=EAIaIQobChMI-c64yKrigwMVqJZQBh3hFQ1YEAAYASAAEgKJZvD_BwE&gclsrc=aw.ds"><img
+                        src="./brand/valentino.png" class="brand"></a>
+                <a
+                    href="https://www.isabelmarant.com/fr/femme/soldes?gad_source=1&gclid=EAIaIQobChMI2ZXy26rigwMVbJVQBh2rygvqEAAYASAAEgKHWPD_BwE"><img
+                        src="./brand/isabel.png" class="brand"></a>
+                <a href="https://www.fondationlouisvuitton.fr/fr"><img src="./brand/louisvuitton.png" class="brand"></a>
+                <a
+                    href="https://www.viviennewestwood.com/fr-fr/accueil/?gclid=EAIaIQobChMIr_SSj6vigwMVRptQBh0juQlqEAAYASAAEgLjvfD_BwE&gclsrc=aw.ds"><img
+                        src="./brand/vivienne.png" class="brand"></a>
+            </div>
+        </section>
+
+<!-- Section 2 Model of the year -->
+
+        <section class="section2">
+            <h2>Model of the year
+                <br><span>Anok Yai</span>
+            </h2>
+            <img src="modelyear.jpg" class="flashlights">
+            <div class="modeloftheyear">
+                <article>
+                    <h4>Beginning/career</h4>
+                    <p>Discovered in october 2017 during Howard university's homecoming week,
+                        she became famous thanks to the photographer Steve 'theSUNK' Hall who posted her picture on
+                        Instagram.
+                        She chose to sign a contract with NEXT Model Management.
+                        She then became the first Sudanese model to open a runway for Prada.</p>
+                </article>
+                <img src="anokversace.jpg" class="imganok">
+                <aside>
+                    <q>When you don't dress like everyone else, you don't think like everyone else.</q>
+                    <p>-Anok Yai</p>
+                </aside>
+                <video src="anokrunway.mp4" width=320 height=320 autoplay loop></video>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>Subscribe to our Newsletter</h3>
+        <form class="newsletter">
+            <ul>
+                <li>
+                    <label for="email">Email address :
+                        <br>
+                    </label>
+                    <input type="email" required="required" />
+                </li>
+
+                <li>
+                    <label for="Name">First name :
+                        <br>
+                    </label>
+                    <input type="name" required="required" />
+                </li>
+
+                <li>
+                    <label for="lname">Last name :
+                        <br>
+                    </label>
+                    <input type="lname" required="required" />
+                </li>
+
+                <li>
+                    <label for="comment"> Comment
+                        <br>
+                    </label>
+                    <textarea id="your_comment"></textarea>
+                </li>
+
+                <li>
+                    <h3>Give your opinion about the website !</h3>
+                    <p>
+                        I love this website: <input type="radio" name="avis" />
+                        <br />
+                        I don't care: <input type="radio" name="avis" />
+                        <br />
+                        I hate this website: <input type="radio" name="avis" />
+                    </p>
+                </li>
+
+                <li>
+                    <p>By accepting our <a href=""> privacy policy</a>
+                        you agree to the collection of information for
+                        the proper processing of your request*
+                    </p>
+                </li>
+
+                <li>
+                    <input class="checkbox" type="checkbox" required="required" />
+                    <label for="checkpoint"> Accept terms of use </label>
+                </li>
+
+                <button type="submit">Subscribe</button>
+
+            </ul>
+        </form>
+
+        <p class="contact">
+            Contact us on <a href="#">MiuJu@gmail.com</a>
+        </p>
+
+        <p class="localisation">
+            Based in Blois, France
+        </p>
+    </footer>
+</body>
+
+</html>
